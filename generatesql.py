@@ -1623,7 +1623,7 @@ def one2one(input_list,val):
         
 def choose_function(function_name, input_string,row,val):
         logging.debug('Function names: ')
-		logging.debug(function_name)
+		#logging.debug(function_name)
         buss_rule = input_string
         if function_name.upper() == 'ONE-2-ONE':
                 out_sql , gp_cols,group = one2one(buss_rule,val)
