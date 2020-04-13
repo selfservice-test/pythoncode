@@ -185,7 +185,7 @@ def format_query(total_sql, gp_cols,table_name, where_col,source_col,grp,input_l
                 formatted_sql.append("("+having_columns+") OR")
     formatted_sql.append(';')
     logging.debug("formatted sql: ")
-	logging.debug(formatted_sql)
+	#logging.debug(formatted_sql)
 
 def derived(input_list,row,val):
     rule_break = input_list['TRANSFORMATION'].split()
